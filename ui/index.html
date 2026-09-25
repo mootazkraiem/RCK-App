@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none';">
+<title>Release Knowledge Capture</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-open">
+
+<div class="login-screen open" id="loginScreen">
+  <div class="rl-stage">
+  <div class="rl-card">
+
+    <section class="rl-vision" aria-labelledby="rl-vision-title">
+      <div class="rl-brand">
+        <div class="rl-brand-chip" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10.3 5.2 7.9 4.6 4 4.6v13.2c3.9 0 6.3.6 8 1.9 1.7-1.3 4.1-1.9 8-1.9V4.6c-3.9 0-6.3.6-8 1.9Z" fill="currentColor" fill-opacity=".16"/><path d="M12 6.5v13.2"/></svg>
+        </div>
+        <div class="rl-brand-name">Release Knowledge Capture<span>RCK knowledge platform</span></div>
+      </div>
+
+      <div class="rl-journey" role="img" aria-label="Capture, review and validate feed trusted knowledge, which will later power an AI assistant — coming soon">
+      <div class="rl-journey-scale">
+        <div class="rl-orbit">
+        <svg class="rl-track" viewBox="0 0 570 470" width="570" height="470" aria-hidden="true">
+          <defs>
+            <linearGradient id="rlTrackGrad" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0" stop-color="#ffffff" stop-opacity=".25"/>
+              <stop offset="1" stop-color="#ffffff" stop-opacity=".9"/>
+            </linearGradient>
+          </defs>
+          <circle class="rl-outer" cx="285" cy="240" r="212"/>
+          <circle class="rl-base" cx="285" cy="240" r="150"/>
+          <circle class="rl-halo" cx="285" cy="240" r="78"/>
+          <path class="rl-flow" d="M155 315 A150 150 0 1 1 415 315 L285 240" pathLength="100"/>
+          <path class="rl-chev" d="M147.8 165.5 L158.0 159.8 L158.2 171.5"/><path class="rl-chev" d="M418.2 158.5 L418.0 170.2 L407.8 164.5"/>
+          <circle class="rl-mote" cx="248" cy="449" r="2"/><circle class="rl-mote" cx="76" cy="203" r="2.5"/><circle class="rl-mote" cx="195" cy="48" r="1.5"/><circle class="rl-mote" cx="484" cy="313" r="2"/>
+        </svg>
+        <div class="rl-spark" aria-hidden="true"></div>
+        <div class="rl-stop rl-s1" style="left:155px; top:315px">
+          <div class="rl-tile" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M18 5H9a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9" fill="currentColor" fill-opacity=".16"/><path d="M11.5 12.5h5M11.5 17h7M11.5 21.5h4"/><path d="M26.2 4.8a2 2 0 0 1 0 2.8l-7.7 7.7-3.5.9.9-3.5 7.7-7.7a2 2 0 0 1 2.6-.2Z"/></svg><span class="rl-num">1</span></div>
+          <div class="rl-label">Capture</div>
+        </div>
+        <div class="rl-stop rl-up rl-s2" style="left:285px; top:90px">
+          <div class="rl-tile" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h10M5 13h6M5 18h5"/><circle cx="19" cy="17" r="6.5" fill="currentColor" fill-opacity=".16"/><path d="m24 22 4.5 4.5"/><path d="m16.4 17 1.8 1.8 3.3-3.3"/></svg><span class="rl-num">2</span></div>
+          <div class="rl-label">Review</div>
+        </div>
+        <div class="rl-stop rl-s3" style="left:415px; top:315px">
+          <div class="rl-tile" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="10.5" r="4.5" fill="currentColor" fill-opacity=".16"/><path d="M4.5 26c.9-4.8 4.2-7.5 8.5-7.5 1.6 0 3 .4 4.3 1"/><path d="m19.5 23.5 2.8 2.8 5.7-5.8"/></svg><span class="rl-num">3</span></div>
+          <div class="rl-label">Validate</div>
+        </div>
+        <div class="rl-stop rl-trusted" style="left:285px; top:240px">
+          <div class="rl-tile" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3.5l2.9 2.1 3.6-.1 1.1 3.4 2.9 2.1-1.1 3.4 1.1 3.4-2.9 2.1-1.1 3.4-3.6-.1L16 25.3l-2.9-2.1-3.6.1-1.1-3.4-2.9-2.1 1.1-3.4-1.1-3.4 2.9-2.1 1.1-3.4 3.6.1L16 3.5Z" fill="currentColor" fill-opacity=".14"/><path d="m11.8 14.4 3 3 5.6-5.6"/><path d="M11 24.5 9.5 29l3.3-1.2L16 29.5l3.2-1.7 3.3 1.2-1.5-4.5" /></svg></div>
+          <div class="rl-label">Trusted knowledge</div>
+        </div>
+      </div>
+        <div class="rl-pop" aria-hidden="true">
+          <div class="rl-pop-card">
+            <div class="rl-pop-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H14l-6 4.5V23H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z"/><path d="M16 10.5c.4 2.2 1.3 3.1 3.5 3.5-2.2.4-3.1 1.3-3.5 3.5-.4-2.2-1.3-3.1-3.5-3.5 2.2-.4 3.1-1.3 3.5-3.5Z" fill="currentColor" fill-opacity=".35"/></svg><span class="rl-pop-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span></div>
+            <div class="rl-pop-title">AI Assistant</div>
+            <div class="rl-pop-sub">Answers grounded in trusted knowledge.</div>
+            <div class="rl-pop-ask"><span>Ask RCK anything…</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+            <div class="rl-pop-soon">Coming soon</div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <h1 id="rl-vision-title" class="rl-h1">From release experience<br>to <em>trusted knowledge.</em></h1>
+    </section>
+
+    <section class="rl-signin" aria-labelledby="rl-signin-title">
+      <div class="rl-form">
+        <h2 id="rl-signin-title" class="rl-h2">Sign in</h2>
+        <p class="rl-sub">Welcome back to RCK.</p>
+
+        <div class="rl-field">
+          <label class="rl-field-label" for="loginUsername">Username <b aria-hidden="true">*</b></label>
+          <div class="rl-input">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c.8-3.4 3.6-5.5 7-5.5s6.2 2.1 7 5.5"/></svg>
+            <input type="text" id="loginUsername" autocomplete="username" placeholder="e.g., jsmith">
+          </div>
+        </div>
+        <div class="rl-field">
+          <label class="rl-field-label" for="loginPassword">Password <b aria-hidden="true">*</b></label>
+          <div class="rl-input">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+            <input type="password" id="loginPassword" autocomplete="current-password">
+          </div>
+        </div>
+
+        <div class="rl-error" id="loginError" style="display:none;"></div>
+        <div class="rl-recover" id="loginRecover" style="display:none;">
+          <label class="rl-field-label" for="loginServerInput">Server address</label>
+          <div class="rl-recover-row">
+            <input class="rl-input" id="loginServerInput" type="text" placeholder="https://your-server-address" autocomplete="off" spellcheck="false">
+            <button type="button" class="rl-recover-btn" id="loginServerSave">Connect</button>
+          </div>
+          <div class="rl-recover-msg" id="loginServerMsg" role="status"></div>
+        </div>
+
+        <button class="rl-btn" type="submit" id="loginSubmitBtn">Sign in
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+
+        <div class="rl-server"><i aria-hidden="true"></i><span id="loginServerUrl"></span></div>
+      </div>
+    </section>
+
+  </div>
+  </div>
+</div>
+
+<div class="app-shell">
+<aside class="app-sidebar">
+  <div class="side-brand">
+    <div class="brand-mark"><span class="icon icon-white" id="brandIcon"></span></div>
+    <div class="brand-text">
+      <span class="brand-title">RCK</span>
+      <span class="brand-tag">Release Knowledge Capture</span>
+    </div>
+  </div>
+
+  <nav class="side-nav">
+    <div class="side-section">
+      <div class="side-label">Workspace</div>
+      <button class="side-link active" data-view="dashboard">
+        <span class="icon icon-sm" data-nav-icon="grid"></span> Dashboard
+      </button>
+      <button class="side-link" data-view="notifications">
+        <span class="icon icon-sm" data-nav-icon="bell"></span> Notifications
+        <span class="side-badge" id="sideBadgeNotif" hidden></span>
+      </button>
+    </div>
+    <div class="side-section">
+      <div class="side-label">Knowledge</div>
+      <button class="side-link" data-view="capture">
+        <span class="icon icon-sm" data-nav-icon="plus"></span> Capture knowledge
+      </button>
+      <button class="side-link" data-view="my-entries">
+        <span class="icon icon-sm" data-nav-icon="inbox"></span> My entries
+      </button>
+      <button class="side-link" data-view="trusted">
+        <span class="icon icon-sm" data-nav-icon="shieldCheck"></span> Trusted knowledge
+      </button>
+    </div>
+    <div class="side-section admin-only">
+      <div class="side-label">Validation</div>
+      <button class="side-link" data-view="review-queue">
+        <span class="icon icon-sm" data-nav-icon="clipboardCheck"></span> Review queue
+        <span class="side-badge" id="sideBadgeReview" hidden></span>
+      </button>
+    </div>
+    <div class="side-section">
+      <div class="side-label">Assistant</div>
+      <button class="side-link side-link-locked" data-view="ai-assistant">
+        <span class="icon icon-sm" data-nav-icon="sparkles"></span> AI Assistant
+        <span class="side-soon-badge"><span class="icon icon-sm" data-nav-icon="lock"></span> Soon</span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="side-bottom admin-only">
+    <button class="side-link" id="manageUsersBtn" data-view="settings">
+      <span class="icon icon-sm" data-nav-icon="settings"></span> Settings
+    </button>
+  </div>
+  <div class="side-bottom">
+    <button class="side-link" id="helpBtn" data-view="my-account">
+      <span class="icon icon-sm" data-nav-icon="user"></span> My account
+    </button>
+  </div>
+</aside>
+
+<div class="shell-body">
+<header class="topbar">
+  <div class="topbar-crumb" id="topbarCrumb">Dashboard</div>
+
+  <div class="topbar-end">
+    <div class="nav-icon-wrap">
+      <button class="icon-btn" id="notifBtn" title="Notifications" aria-label="Notifications">
+        <span class="icon" id="notifBtnIcon"></span>
+        <span class="icon-btn-badge" id="notifBadge" style="display:none;"></span>
+      </button>
+      <div class="popover" id="notifPopover"></div>
+    </div>
+    <div class="nav-icon-wrap">
+      <button class="account-pill" id="accountBtn" title="Account menu">
+        <span class="avatar" id="topbarAvatar"></span>
+        <span class="account-text">
+          <b id="topbarName">—</b>
+          <span id="topbarRole">—</span>
+        </span>
+        <span class="icon icon-muted icon-sm" data-nav-icon="chevronDown"></span>
+      </button>
+      <div class="popover account-menu" id="accountMenu">
+        <div class="account-menu-head">
+          <span class="avatar avatar-lg" id="accountMenuAvatar"></span>
+          <div>
+            <b id="accountMenuName">—</b>
+            <span id="accountMenuUsername">—</span>
+          </div>
+        </div>
+        <div class="account-menu-role">
+          <span class="icon icon-sm" data-nav-icon="shieldCheck"></span>
+          <span id="accountMenuRole">—</span>
+        </div>
+        <button class="account-menu-item" data-view="my-account">
+          <span class="icon icon-sm" data-nav-icon="user"></span> My account
+        </button>
+        <button class="account-menu-item" data-view="notifications">
+          <span class="icon icon-sm" data-nav-icon="bell"></span> Notification preferences
+        </button>
+        <button class="account-menu-item" id="accountMenuAppPrefsBtn">
+          <span class="icon icon-sm" data-nav-icon="settings"></span> Application preferences
+        </button>
+        <button class="account-menu-item admin-only" data-view="settings">
+          <span class="icon icon-sm" data-nav-icon="settings"></span> Settings <span class="account-menu-badge admin-only">Admin</span>
+        </button>
+        <div class="account-menu-divider"></div>
+        <button class="account-menu-item" id="accountMenuGuidelinesBtn">
+          <span class="icon icon-sm" data-nav-icon="info"></span> Contribution guidelines
+        </button>
+        <button class="account-menu-item" id="accountMenuShortcutsBtn">
+          <span class="icon icon-sm" data-nav-icon="grid"></span> Keyboard shortcuts
+        </button>
+        <div class="account-menu-divider"></div>
+        <button class="account-menu-item account-menu-danger" id="signOutBtn">
+          <span class="icon icon-sm" data-nav-icon="signOut"></span> Sign out
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Hidden for strict PDF conformance (no page in the reference shows a
+     persistent banner). Moved into My Account > Profile so the disclosure
+     isn't lost, just relocated to match the new information architecture. -->
+<div class="banner" style="display:none;">
+  <span class="icon icon-info"></span>
+  Shared team knowledge base — stored on the team server, not on this machine. No external AI or public cloud service is used.
+</div>
+
+<!-- ============================== DASHBOARD ============================== -->
+<section class="view active" id="view-dashboard">
+  <div class="dash-head">
+    <div>
+      <h1 id="dashGreeting">Good morning</h1>
+      <p id="dashDate"></p>
+    </div>
+    <div class="dash-head-actions">
+      <button class="btn btn-secondary" data-view="trusted">
+        <span class="icon icon-sm" data-nav-icon="shieldCheck"></span> Browse knowledge
+      </button>
+      <button class="btn btn-primary" data-view="capture">
+        <span class="icon icon-white icon-sm" data-nav-icon="plus"></span> Capture knowledge
+      </button>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card">
+      <span class="stat-icon stat-icon-green" data-nav-icon="shieldCheck"></span>
+      <div class="stat-num" id="statTrusted">—</div>
+      <div class="stat-label">Trusted knowledge</div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon stat-icon-amber" data-nav-icon="clock"></span>
+      <div class="stat-num" id="statPending">—</div>
+      <div class="stat-label">Pending review</div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon stat-icon-blue" data-nav-icon="check"></span>
+      <div class="stat-num" id="statApproved">—</div>
+      <div class="stat-label">Approved this month</div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon stat-icon-indigo" data-nav-icon="user"></span>
+      <div class="stat-num" id="statMine">—</div>
+      <div class="stat-label">My contributions</div>
+    </div>
+  </div>
+
+  <div class="card lifecycle-card">
+    <h3>How knowledge flows through RCK</h3>
+    <p class="muted-small">Only human-validated knowledge is published, and only trusted knowledge will power the AI Assistant.</p>
+    <div class="lifecycle-strip">
+      <div class="lc-step"><span class="lc-icon lc-icon-blue" data-nav-icon="plus"></span><b>Capture</b><span>You or a colleague writes it</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-amber" data-nav-icon="clock"></span><b>Pending review</b><span>Queued for the right reviewers</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-indigo" data-nav-icon="clipboardCheck"></span><b>Human validation</b><span>A reviewer checks and decides</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-green" data-nav-icon="shieldCheck"></span><b>Trusted knowledge</b><span>Published to the organization</span></div>
+      <span class="lc-arrow lc-arrow-dashed">→</span>
+      <div class="lc-step lc-step-locked"><span class="lc-icon lc-icon-locked" data-nav-icon="sparkles"></span><b>AI Assistant</b><span>Future release</span></div>
+    </div>
+  </div>
+
+  <div class="dash-cols">
+    <div class="dash-main">
+      <div class="card admin-only" id="waitingReviewCard">
+        <div class="sidebar-head">
+          <h3>Waiting for your review</h3>
+          <a data-view="review-queue">View all <span class="icon icon-sm" data-nav-icon="arrowRight"></span></a>
+        </div>
+        <div id="dashWaitingList"></div>
+      </div>
+      <div class="card" style="margin-top:18px;">
+        <div class="sidebar-head">
+          <h3>My recent submissions</h3>
+          <a data-view="my-entries">All my entries <span class="icon icon-sm" data-nav-icon="arrowRight"></span></a>
+        </div>
+        <div id="dashMineList"></div>
+      </div>
+      <div class="card" style="margin-top:18px;">
+        <div class="sidebar-head">
+          <h3>Recently approved knowledge</h3>
+          <a data-view="trusted">Browse all <span class="icon icon-sm" data-nav-icon="arrowRight"></span></a>
+        </div>
+        <div id="dashApprovedList"></div>
+      </div>
+    </div>
+    <aside class="dash-aside">
+      <div class="card">
+        <h3>Quick actions</h3>
+        <button class="qa-row" data-view="capture">
+          <span class="qa-icon qa-icon-blue" data-nav-icon="plus"></span>
+          <span><b>Capture knowledge</b><span>Troubleshooting, information or procedure</span></span>
+        </button>
+        <button class="qa-row admin-only" data-view="review-queue">
+          <span class="qa-icon qa-icon-amber" data-nav-icon="clipboardCheck"></span>
+          <span><b>Review entries</b><span id="qaReviewSub">Nothing waiting</span></span>
+        </button>
+        <button class="qa-row" data-view="trusted">
+          <span class="qa-icon qa-icon-green" data-nav-icon="shieldCheck"></span>
+          <span><b>Browse knowledge</b><span id="qaTrustedSub">—</span></span>
+        </button>
+        <button class="qa-row" data-view="ai-assistant">
+          <span class="qa-icon qa-icon-locked" data-nav-icon="sparkles"></span>
+          <span><b>AI Assistant</b><span>Planned for a future release</span></span>
+        </button>
+      </div>
+      <div class="card dash-notif-card" style="margin-top:18px;">
+        <div class="sidebar-head sidebar-head-tight">
+          <a data-view="notifications">View all <span class="icon icon-sm" data-nav-icon="arrowRight"></span></a>
+        </div>
+        <div id="dashNotifList" class="notif-list"></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============================== CAPTURE ============================== -->
+<section class="view" id="view-capture">
+
+<!-- ============================== CAPTURE: TYPE (step 1) ============================== -->
+<div class="capture-type-screen" id="captureTypeScreen">
+  <div class="page-head page-head-row">
+    <div>
+      <h1>Capture knowledge</h1>
+      <p>What would you like to capture? Choose the type that fits best. A reviewer validates every entry before it becomes trusted knowledge.</p>
+    </div>
+    <button type="button" class="btn btn-secondary" id="contributionGuidelinesLink"><span class="icon icon-sm" data-nav-icon="info"></span> Contribution guidelines</button>
+  </div>
+
+  <div class="capture-stepper">
+    <div class="cs-step cs-active"><span class="cs-dot">1</span> Type</div>
+    <span class="cs-line"></span>
+    <div class="cs-step"><span class="cs-dot">2</span> Details</div>
+    <span class="cs-line"></span>
+    <div class="cs-step"><span class="cs-dot">3</span> Review</div>
+    <span class="cs-line"></span>
+    <div class="cs-step"><span class="cs-dot">4</span> Save</div>
+    <span class="cs-line"></span>
+    <div class="cs-step"><span class="cs-dot">5</span> Captured</div>
+  </div>
+
+  <div class="type-grid type-grid-3">
+    <button class="type-card tc-ps" type="button" data-capture-type="PROBLEM_SOLUTION">
+      <div class="type-top">
+        <div class="type-icon type-icon-glyph">!</div>
+        <span class="type-kicker">Troubleshooting</span>
+      </div>
+      <div class="type-name">Problem / Solution</div>
+      <div class="type-desc">Capture an issue and how it was resolved.</div>
+      <ul class="type-examples">
+        <li>An error during a release</li>
+        <li>Its root cause and the fix</li>
+      </ul>
+      <span class="type-go">Start <span class="icon icon-sm" data-nav-icon="arrowRight"></span></span>
+    </button>
+
+    <button class="type-card tc-info" type="button" data-capture-type="INFORMATION">
+      <div class="type-top">
+        <div class="type-icon type-icon-glyph">?</div>
+        <span class="type-kicker">Explanation</span>
+      </div>
+      <div class="type-name">Information</div>
+      <div class="type-desc">Explain a concept, system or piece of knowledge.</div>
+      <ul class="type-examples">
+        <li>How a system or component works</li>
+        <li>Architecture or a technical fact</li>
+      </ul>
+      <span class="type-go">Start <span class="icon icon-sm" data-nav-icon="arrowRight"></span></span>
+    </button>
+
+    <button class="type-card tc-proc" type="button" data-capture-type="PROCEDURE">
+      <div class="type-top">
+        <div class="type-icon type-icon-glyph">→</div>
+        <span class="type-kicker">How-to</span>
+      </div>
+      <div class="type-name">Procedure</div>
+      <div class="type-desc">Document how to perform something.</div>
+      <ul class="type-examples">
+        <li>How to configure or request access</li>
+        <li>A recurring operational task</li>
+      </ul>
+      <span class="type-go">Start <span class="icon icon-sm" data-nav-icon="arrowRight"></span></span>
+    </button>
+  </div>
+
+  <div class="card capture-draft-card" id="captureDraftCard" style="display:none;">
+    <div class="draft-head">
+      <span class="icon icon-muted" data-nav-icon="clock"></span>
+      <div><b>Continue where you left off</b><span class="muted-small">Drafts are saved automatically and only visible to you, on this device.</span></div>
+    </div>
+    <div id="captureDraftList"></div>
+  </div>
+
+  <div class="card">
+    <div class="lifecycle-mini-head"><span class="icon icon-sm" data-nav-icon="info"></span> What happens to your entry</div>
+    <div class="lifecycle-strip">
+      <div class="lc-step lc-step-here"><span class="lc-icon lc-icon-blue" data-nav-icon="plus"></span><b>Capture</b><span>You or a colleague writes it</span><span class="lc-here-badge">You are here</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-amber" data-nav-icon="clock"></span><b>Pending review</b><span>Queued for the right reviewers</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-indigo" data-nav-icon="clipboardCheck"></span><b>Human validation</b><span>A reviewer checks and decides</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-green" data-nav-icon="shieldCheck"></span><b>Trusted knowledge</b><span>Published to the organization</span></div>
+      <span class="lc-arrow lc-arrow-dashed">→</span>
+      <div class="lc-step lc-step-locked"><span class="lc-icon lc-icon-locked" data-nav-icon="sparkles"></span><b>AI Assistant</b><span>Answers from trusted knowledge</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================== CAPTURE: DETAILS/REVIEW (step 2, Problem/Solution) ============================== -->
+<div class="capture-form-screen" id="captureFormScreen" style="display:none;">
+<a class="back-link" id="captureChangeTypeLink"><span class="icon icon-sm" data-nav-icon="arrowLeft"></span> Change type</a>
+<div class="capture-stepper" id="captureFormStepper">
+  <div class="cs-step cs-done"><span class="cs-dot">✓</span> Type</div>
+  <span class="cs-line cs-line-done"></span>
+  <div class="cs-step cs-active"><span class="cs-dot">2</span> Details</div>
+  <span class="cs-line"></span>
+  <div class="cs-step"><span class="cs-dot">3</span> Review</div>
+  <span class="cs-line"></span>
+  <div class="cs-step"><span class="cs-dot">4</span> Save</div>
+  <span class="cs-line"></span>
+  <div class="cs-step"><span class="cs-dot">5</span> Captured</div>
+</div>
+<main>
+  <div class="card" id="captureCard">
+    <div class="card-head">
+      <div class="card-title">
+        <div class="icon-box type-icon-glyph">!</div>
+        <div>
+          <h2>Capture New Release Issue</h2>
+          <p>Record a resolved issue to help the team and improve our knowledge base.</p>
+        </div>
+      </div>
+      <div class="ref-wrap">
+        <div class="ref" id="refLabel">REF-…</div>
+        <span class="icon icon-muted icon-sm" id="refInfoIcon" title="Auto-generated reference ID"></span>
+      </div>
+    </div>
+
+    <label>Issue Title <span class="req">*</span></label>
+    <input type="text" id="fTitle" placeholder="e.g., Release package approval blocked">
+
+    <div class="row2">
+      <div>
+        <label>Error Code</label>
+        <input type="text" id="fError" placeholder="ER-123">
+        <div class="hint">Enter error or message code if available</div>
+      </div>
+      <div>
+        <label>Applications Involved <span class="req">*</span></label>
+        <div class="apps-picker" id="appsPicker">
+          <div class="chips" id="appChips"></div>
+          <button type="button" class="apps-picker-toggle" id="appsPickerToggle">
+            <span class="icon icon-muted icon-sm chevron"></span>
+          </button>
+          <div class="apps-dropdown" id="appsDropdown"></div>
+        </div>
+      </div>
+    </div>
+
+    <label>Problem Description <span class="req">*</span></label>
+    <textarea id="fProblem" maxlength="3000" placeholder="What happened, when, and to whom?"></textarea>
+    <div class="charcount"><span id="cProblem">0</span> / 3000</div>
+
+    <div class="row2">
+      <div>
+        <label>Root Cause <span class="req">*</span></label>
+        <textarea id="fRoot" maxlength="2000"></textarea>
+        <div class="charcount"><span id="cRoot">0</span> / 2000</div>
+      </div>
+      <div>
+        <label>Resolution / Solution <span class="req">*</span></label>
+        <textarea id="fSolution" maxlength="2000"></textarea>
+        <div class="charcount"><span id="cSolution">0</span> / 2000</div>
+      </div>
+    </div>
+
+    <div class="steps-head-row">
+      <label class="no-margin">Step-by-Step Procedure <span class="req">*</span></label>
+      <button type="button" class="btn btn-outline btn-sm" id="addStepBtn">
+        <span class="icon icon-primary icon-sm" id="addStepIcon"></span> Add Step
+      </button>
+    </div>
+    <div class="steps">
+      <div class="steps-head"><div>Step</div><div>Action</div><div>Application</div><div></div></div>
+      <div id="stepsBody"></div>
+    </div>
+
+    <div class="attachments-block">
+      <label class="no-margin">Attachments <span class="optional">(Optional)</span></label>
+      <div class="hint" style="margin-bottom:10px;">Add any supporting evidence such as screenshots, logs, or error reports.</div>
+      <div class="attach-row">
+        <button type="button" class="attach-box" data-kind="screenshot">
+          <span class="icon icon-primary" id="attachScreenshotIcon"></span>
+          <div class="attach-label">Attach Screenshot</div>
+          <div class="attach-sub">PNG, JPG, GIF</div>
+        </button>
+        <button type="button" class="attach-box" data-kind="log">
+          <span class="icon icon-primary" id="attachLogIcon"></span>
+          <div class="attach-label">Attach Log File</div>
+          <div class="attach-sub">TXT, LOG</div>
+        </button>
+        <button type="button" class="attach-box" data-kind="error">
+          <span class="icon icon-primary" id="attachErrorIcon"></span>
+          <div class="attach-label">Attach Error Report</div>
+          <div class="attach-sub">PDF, DOC, ZIP</div>
+        </button>
+      </div>
+      <div class="staged-attachments" id="stagedAttachments"></div>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-primary" id="submitBtn">
+        <span class="icon icon-white icon-sm" id="submitIcon"></span> Submit to Knowledge Base
+      </button>
+      <button class="btn-link" id="similarBtn">
+        <span class="icon icon-primary icon-sm" id="similarIcon"></span> Search Similar Issues
+      </button>
+      <button class="btn-link btn-link-muted" id="clearBtn">Clear form</button>
+    </div>
+  </div>
+
+  <aside>
+    <div class="card sidebar-card">
+      <div class="sidebar-head">
+        <h3>Recent Issues</h3>
+        <a id="viewAllLink">View all</a>
+      </div>
+      <div id="issueList"></div>
+      <div class="hint-box">
+        <span class="icon icon-info"></span>
+        <div>
+          <b>Can't find your issue?</b>
+          Search the knowledge base for similar solutions.
+          <button class="btn btn-outline btn-sm btn-block" id="searchKbBtn">
+            <span class="icon icon-primary icon-sm" id="searchKbIcon"></span> Search Knowledge Base
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:18px;">
+      <h3>Server connection</h3>
+      <div id="dataDirLabel" class="muted-small">loading…</div>
+    </div>
+  </aside>
+</main>
+</div><!-- /#captureFormScreen -->
+
+<div class="capture-form-screen" id="captureInfoScreen" style="display:none;">
+<a class="back-link" id="captureInfoChangeTypeLink"><span class="icon icon-sm" data-nav-icon="arrowLeft"></span> Change type</a>
+<main style="display:block;max-width:760px;margin:0 auto;">
+  <div class="card" id="captureInfoCard">
+    <div class="card-head">
+      <div class="card-title">
+        <div class="icon-box type-icon-glyph" style="background:linear-gradient(135deg,var(--secondary),#5636c4);">?</div>
+        <div>
+          <h2>Capture Information</h2>
+          <p>Explain how a system or concept works, for colleagues who need the background.</p>
+        </div>
+      </div>
+      <div class="ref-wrap">
+        <div class="ref" id="refLabelInfo">REF-…</div>
+      </div>
+    </div>
+
+    <label>Title <span class="req">*</span></label>
+    <input type="text" id="iTitle" placeholder="e.g., How release version numbers are assigned">
+
+    <label>Topic / Subject <span class="req">*</span></label>
+    <input type="text" id="iTopic" placeholder="e.g., Versioning">
+
+    <label>Related Systems / Components <span class="optional">(Optional)</span></label>
+    <div class="apps-picker" id="infoAppsPicker">
+      <div class="chips" id="infoAppChips"></div>
+      <button type="button" class="apps-picker-toggle" id="infoAppsPickerToggle">
+        <span class="icon icon-muted icon-sm chevron"></span>
+      </button>
+      <div class="apps-dropdown" id="infoAppsDropdown"></div>
+    </div>
+
+    <label>Description / Explanation <span class="req">*</span></label>
+    <textarea id="iDescription" maxlength="3000" placeholder="Explain how it works, in enough detail that a colleague doesn't need to ask you."></textarea>
+    <div class="charcount"><span id="cIDescription">0</span> / 3000</div>
+
+    <label>Additional Context <span class="optional">(Optional)</span></label>
+    <textarea id="iContext" maxlength="2000" placeholder="Anything else worth knowing -- history, caveats, related decisions."></textarea>
+
+    <div class="actions">
+      <button class="btn btn-primary" id="submitInfoBtn">
+        <span class="icon icon-white icon-sm" data-nav-icon="check"></span> Submit to Knowledge Base
+      </button>
+      <button class="btn-link btn-link-muted" id="clearInfoBtn">Clear form</button>
+    </div>
+  </div>
+</main>
+</div><!-- /#captureInfoScreen -->
+
+<div class="capture-form-screen" id="captureProcScreen" style="display:none;">
+<a class="back-link" id="captureProcChangeTypeLink"><span class="icon icon-sm" data-nav-icon="arrowLeft"></span> Change type</a>
+<main style="display:block;max-width:760px;margin:0 auto;">
+  <div class="card" id="captureProcCard">
+    <div class="card-head">
+      <div class="card-title">
+        <div class="icon-box type-icon-glyph" style="background:linear-gradient(135deg,var(--teal),#0b6d60);">→</div>
+        <div>
+          <h2>Capture Procedure</h2>
+          <p>Describe the task so a colleague could perform it without asking you.</p>
+        </div>
+      </div>
+      <div class="ref-wrap">
+        <div class="ref" id="refLabelProc">REF-…</div>
+      </div>
+    </div>
+
+    <label>Title <span class="req">*</span></label>
+    <input type="text" id="pTitle" placeholder="e.g., Rolling back a failed Helm release on the staging cluster">
+
+    <label>Purpose <span class="req">*</span></label>
+    <textarea id="pPurpose" maxlength="2000" placeholder="When should someone use this procedure?"></textarea>
+
+    <label>Related Systems / Components <span class="optional">(Optional)</span></label>
+    <div class="apps-picker" id="procAppsPicker">
+      <div class="chips" id="procAppChips"></div>
+      <button type="button" class="apps-picker-toggle" id="procAppsPickerToggle">
+        <span class="icon icon-muted icon-sm chevron"></span>
+      </button>
+      <div class="apps-dropdown" id="procAppsDropdown"></div>
+    </div>
+
+    <label>Prerequisites <span class="optional">(Optional)</span></label>
+    <textarea id="pPrereqs" maxlength="1500" placeholder="Access, tools or conditions needed before starting."></textarea>
+
+    <div class="steps-head-row">
+      <label class="no-margin">Steps <span class="req">*</span></label>
+      <button type="button" class="btn btn-outline btn-sm" id="addProcStepBtn">
+        <span class="icon icon-primary icon-sm" data-nav-icon="plus"></span> Add Step
+      </button>
+    </div>
+    <div class="steps">
+      <div class="steps-head"><div>Step</div><div>Action</div><div>Application</div><div></div></div>
+      <div id="procStepsBody"></div>
+    </div>
+
+    <label>Important Notes / Warnings <span class="optional">(Optional)</span></label>
+    <textarea id="pWarnings" maxlength="1500" placeholder="Anything that could go wrong, or must not be skipped."></textarea>
+
+    <label>Additional Information <span class="optional">(Optional)</span></label>
+    <textarea id="pAdditionalInfo" maxlength="1500"></textarea>
+
+    <div class="actions">
+      <button class="btn btn-primary" id="submitProcBtn">
+        <span class="icon icon-white icon-sm" data-nav-icon="check"></span> Submit to Knowledge Base
+      </button>
+      <button class="btn-link btn-link-muted" id="clearProcBtn">Clear form</button>
+    </div>
+  </div>
+</main>
+</div><!-- /#captureProcScreen -->
+</section>
+
+<!-- ============================== MY ENTRIES ============================== -->
+<section class="view" id="view-my-entries">
+  <div class="page-head page-head-row">
+    <div>
+      <h1>My entries</h1>
+      <p>Everything you have captured. You can edit or delete an entry until a reviewer starts validating it.</p>
+    </div>
+    <button class="btn btn-primary" data-view="capture">
+      <span class="icon icon-white icon-sm" data-nav-icon="plus"></span> Capture knowledge
+    </button>
+  </div>
+
+  <div class="callout callout-warn" id="myEntriesChangesBanner" style="display:none;">
+    <span class="icon" data-nav-icon="edit"></span>
+    <div class="callout-body">
+      <b id="myEntriesChangesTitle"></b>
+      <span id="myEntriesChangesDetail"></span>
+    </div>
+    <div class="callout-actions">
+      <button type="button" class="btn btn-outline btn-sm" id="myEntriesViewCommentsBtn">View comments</button>
+      <button type="button" class="btn btn-primary btn-sm" id="myEntriesAddressBtn">
+        <span class="icon icon-white icon-sm" data-nav-icon="edit"></span> Address feedback
+      </button>
+    </div>
+  </div>
+
+  <div class="tab-strip" id="myEntriesTabs">
+    <button class="tab-item active" data-status-tab="all">All <span class="tab-count" id="tabCountAll">0</span></button>
+    <button class="tab-item" data-status-tab="draft">Drafts <span class="tab-count" id="tabCountDraft">0</span></button>
+    <button class="tab-item" data-status-tab="pending">Pending review <span class="tab-count" id="tabCountPending">0</span></button>
+    <button class="tab-item" data-status-tab="changes">Changes requested <span class="tab-count" id="tabCountChanges">0</span></button>
+    <button class="tab-item" data-status-tab="approved">Approved <span class="tab-count" id="tabCountApproved">0</span></button>
+    <button class="tab-item" data-status-tab="rejected">Rejected <span class="tab-count" id="tabCountRejected">0</span></button>
+  </div>
+
+  <div class="card table-card">
+    <table class="data-table">
+      <thead class="sr-only"><tr><th>Entry</th><th>Type</th><th>Status</th><th>Reviewer</th><th>Updated</th><th></th></tr></thead>
+      <tbody id="myEntriesBody"></tbody>
+    </table>
+    <div id="myEntriesEmpty" class="table-empty" hidden></div>
+  </div>
+</section>
+
+<!-- ============================== TRUSTED KNOWLEDGE ============================== -->
+<section class="view" id="view-trusted">
+  <div class="page-head page-head-row">
+    <div>
+      <h1>Trusted knowledge</h1>
+      <p id="trustedCount">The official, human-validated knowledge base.</p>
+    </div>
+    <button class="btn btn-primary" data-view="capture">
+      <span class="icon icon-white icon-sm" data-nav-icon="plus"></span> Capture knowledge
+    </button>
+  </div>
+
+  <div class="card search-card tk-search-card">
+    <div class="search-row">
+      <div class="searchbar searchbar-lg">
+        <span class="icon icon-muted" data-nav-icon="search"></span>
+        <input id="trustedSearchInput" type="text" placeholder="Search by title, error message or system…">
+      </div>
+      <button class="btn btn-primary" id="trustedSearchBtn">Search</button>
+    </div>
+    <div class="tk-filter-bar">
+      <div class="tk-filter">
+        <label class="no-margin" for="trustedFilterApp">System / application</label>
+        <select id="trustedFilterApp"><option value="">Any application</option></select>
+      </div>
+      <div class="tk-filter">
+        <label class="no-margin" for="trustedFilterAuthor">Author</label>
+        <select id="trustedFilterAuthor"><option value="">Any author</option></select>
+      </div>
+      <div class="tk-filter">
+        <label class="no-margin" for="trustedSort">Sort</label>
+        <select id="trustedSort">
+          <option value="recent">Recently validated</option>
+          <option value="title">Title (A–Z)</option>
+        </select>
+      </div>
+      <a class="tk-clear" id="trustedClearFilters">Clear all</a>
+    </div>
+    <div class="popular-row" id="trustedPopularRow" hidden>
+      <span class="muted-small">Popular:</span>
+      <div id="trustedPopularChips"></div>
+    </div>
+  </div>
+
+  <div class="card tk-list-card" id="trustedListCard">
+    <div id="trustedList"></div>
+  </div>
+</section>
+
+<!-- ============================== REVIEW QUEUE ============================== -->
+<section class="view" id="view-review-queue">
+  <div class="page-head page-head-row">
+    <div>
+      <h1>Review queue</h1>
+      <p>Validate submitted knowledge before it becomes trusted. Entries are routed to you by category.</p>
+    </div>
+    <div class="page-head-actions">
+      <span class="role-pill"><span class="icon icon-sm" data-nav-icon="shieldCheck"></span> Reviewer</span>
+      <button class="btn btn-secondary" id="reviewGuidelinesBtn"><span class="icon icon-sm" data-nav-icon="info"></span> Review guidelines</button>
+    </div>
+  </div>
+
+  <div class="stat-grid stat-grid-4">
+    <div class="stat-card stat-card-sm">
+      <div class="stat-label">Assigned to you</div>
+      <div class="stat-num" id="rqAssigned">—</div>
+    </div>
+    <div class="stat-card stat-card-sm">
+      <div class="stat-label">All pending</div>
+      <div class="stat-num" id="rqAllPending">—</div>
+    </div>
+    <div class="stat-card stat-card-sm">
+      <div class="stat-label-row"><span class="stat-label">Oldest waiting</span><span class="badge-over-target" id="rqOverTarget" hidden>Over target</span></div>
+      <div class="stat-num" id="rqOldest">—</div>
+    </div>
+    <div class="stat-card stat-card-sm">
+      <div class="stat-label">You decided this week</div>
+      <div class="stat-num" id="rqDecided">—</div>
+    </div>
+  </div>
+
+  <div class="tab-strip" id="reviewQueueTabs">
+    <button class="tab-item active" data-rq-tab="assigned">Assigned to me <span class="tab-count" id="rqTabAssigned">0</span></button>
+    <button class="tab-item" data-rq-tab="all">All pending <span class="tab-count" id="rqTabAll">0</span></button>
+    <button class="tab-item" data-rq-tab="waiting">Waiting on author <span class="tab-count" id="rqTabWaiting">0</span></button>
+    <button class="tab-item" data-rq-tab="decided">Decided <span class="tab-count" id="rqTabDecided">0</span></button>
+  </div>
+
+  <div class="card search-card">
+    <div class="search-row">
+      <div class="searchbar searchbar-lg">
+        <span class="icon icon-muted" data-nav-icon="search"></span>
+        <input id="rqSearchInput" type="text" placeholder="Search submissions…">
+      </div>
+      <select id="rqSortSelect">
+        <option value="oldest">Oldest first</option>
+        <option value="newest">Newest first</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="card table-card">
+    <table class="data-table">
+      <thead class="sr-only"><tr><th>Entry</th><th>Author</th><th>System</th><th>Submitted</th><th>Status</th><th></th></tr></thead>
+      <tbody id="reviewQueueBody"></tbody>
+    </table>
+    <div id="reviewQueueEmpty" class="table-empty" hidden></div>
+  </div>
+</section>
+
+<!-- ============================== NOTIFICATIONS ============================== -->
+<section class="view" id="view-notifications">
+  <div class="page-head page-head-row">
+    <div>
+      <h1>Notifications</h1>
+      <p>Reviews, updates on your entries, and new knowledge.</p>
+    </div>
+    <button class="btn btn-secondary" id="notifMarkAllReadBtn">
+      <span class="icon icon-sm" data-nav-icon="check"></span> Mark all as read
+    </button>
+  </div>
+
+  <div class="tab-strip" id="notifTabs">
+    <button class="tab-item active" data-notif-tab="all">All <span class="tab-count" id="tabCountNotifAll">0</span></button>
+    <button class="tab-item" data-notif-tab="reviews">Reviews <span class="tab-count" id="tabCountNotifReviews">0</span></button>
+    <button class="tab-item" data-notif-tab="mine">My entries <span class="tab-count" id="tabCountNotifMine">0</span></button>
+    <button class="tab-item" data-notif-tab="kb">Knowledge base <span class="tab-count" id="tabCountNotifKb">0</span></button>
+  </div>
+
+  <div class="notif-toolbar">
+    <div class="notif-seg">
+      <button type="button" class="notif-seg-btn active" data-notif-seg="all">All</button>
+      <button type="button" class="notif-seg-btn" data-notif-seg="unread">Unread · <span id="notifSegUnreadCount">0</span></button>
+      <button type="button" class="notif-seg-btn" data-notif-seg="read">Read</button>
+    </div>
+    <span class="notif-total-label" id="notifTotalLabel">0 notifications</span>
+  </div>
+  <div class="card notif-page-card">
+    <div id="notifPageList" class="notif-list"></div>
+  </div>
+</section>
+
+<!-- ============================== NOTIFICATION DETAIL ============================== -->
+<section class="view" id="view-notification-detail">
+  <a class="back-link" id="notifDetailBack"><span class="icon icon-sm" data-nav-icon="arrowLeft"></span> Back to notifications</a>
+  <div id="notifDetailBody"></div>
+</section>
+
+<!-- ============================== AI ASSISTANT (locked) ============================== -->
+<section class="view" id="view-ai-assistant">
+  <div class="card ai-locked-card">
+    <span class="ai-locked-icon" data-nav-icon="sparkles"></span>
+    <p class="ai-locked-badge"><span class="icon icon-sm" data-nav-icon="lock"></span> Planned for a future release</p>
+    <h2>RCK AI Assistant</h2>
+    <p class="detail-text" style="max-width:520px;margin:8px auto 0;">
+      Ask questions in plain language and get answers built only from validated, trusted knowledge —
+      with a link to every entry it used.
+    </p>
+    <div class="ai-preview-wrap">
+      <div class="ai-preview-head">
+        <span><span class="icon icon-sm" data-nav-icon="user"></span> Preview — what the assistant will look like</span>
+        <span class="ai-not-interactive">Not interactive</span>
+      </div>
+      <div class="ai-preview">
+        <div class="ai-preview-msg ai-preview-user">How do I roll back a failed Helm release on staging?</div>
+        <div class="ai-preview-msg ai-preview-bot">
+          <span class="icon icon-sm" data-nav-icon="sparkles"></span>
+          <div>
+            Hi <span id="aiPreviewName">there</span> — here's what I found on rolling back a failed Helm release: find the last healthy revision, roll back to it, then confirm the pods are Running and record the rollback in the change ticket.
+            <div class="ai-sources">SOURCE: KC-0187 · "Rolling back a failed Helm release" · Validated 12 Sep 2026</div>
+          </div>
+        </div>
+      </div>
+      <div class="ai-preview-input"><span class="icon icon-sm" data-nav-icon="lock"></span> The assistant will be available in a future release</div>
+    </div>
+  </div>
+
+  <div class="ai-feature-grid">
+    <div class="card ai-feature-card">
+      <span class="ai-feature-icon ai-feature-green" data-nav-icon="shieldCheck"></span>
+      <b>Trusted knowledge only</b>
+      <span>Answers come exclusively from entries a reviewer has validated — never from raw or pending submissions.</span>
+    </div>
+    <div class="card ai-feature-card">
+      <span class="ai-feature-icon ai-feature-blue" data-nav-icon="externalLink"></span>
+      <b>Every answer cites its sources</b>
+      <span>Each answer links back to the trusted entries it used, so you can check the details.</span>
+    </div>
+    <div class="card ai-feature-card">
+      <span class="ai-feature-icon ai-feature-indigo" data-nav-icon="user"></span>
+      <b>Respects permissions</b>
+      <span>The assistant only uses knowledge you are already allowed to see.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Why it's locked</h3>
+    <p class="muted-small" style="margin-bottom:16px;">The assistant launches once the trusted repository is large enough to answer reliably.</p>
+    <div class="lifecycle-strip" id="aiLifecycleStrip">
+      <div class="lc-step"><span class="lc-icon lc-icon-blue" data-nav-icon="check"></span><b>Capture</b><span id="aiStepCapture">—</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-amber" data-nav-icon="check"></span><b>Pending review</b><span id="aiStepPending">—</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-indigo" data-nav-icon="check"></span><b>Human validation</b><span id="aiStepValidation">In progress</span></div>
+      <span class="lc-arrow">→</span>
+      <div class="lc-step"><span class="lc-icon lc-icon-green" data-nav-icon="check"></span><b>Trusted knowledge</b><span id="aiStepTrusted">—</span></div>
+      <span class="lc-arrow lc-arrow-dashed">→</span>
+      <div class="lc-step lc-step-locked"><span class="lc-icon lc-icon-locked" data-nav-icon="sparkles"></span><b>AI Assistant</b><span>Future release</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== MY ACCOUNT ============================== -->
+<section class="view" id="view-my-account">
+  <div class="page-head">
+    <h1>My account</h1>
+    <p>Your profile, security and how you're known across RCK.</p>
+  </div>
+
+  <div class="account-cols">
+    <aside class="card account-tabs">
+      <button class="side-link active" data-account-tab="profile"><span class="icon icon-sm" data-nav-icon="user"></span> Profile</button>
+      <button class="side-link" data-account-tab="security"><span class="icon icon-sm" data-nav-icon="lock"></span> Security</button>
+      <button class="side-link" data-account-tab="notifications"><span class="icon icon-sm" data-nav-icon="bell"></span> Notifications</button>
+      <button class="side-link" data-account-tab="preferences"><span class="icon icon-sm" data-nav-icon="settings"></span> Preferences</button>
+      <button class="side-link" data-account-tab="activity"><span class="icon icon-sm" data-nav-icon="clock"></span> Activity</button>
+    </aside>
+
+    <div class="account-panels">
+      <div class="card account-panel active" id="accountPanel-profile">
+        <h3>Profile</h3>
+        <p class="muted-small" style="margin-bottom:18px;">How colleagues see you across RCK.</p>
+        <div class="profile-row">
+          <span class="avatar avatar-xl" id="profileAvatar"></span>
+          <div>
+            <div class="profile-name" id="profileName">—</div>
+            <div class="muted-small" id="profileUsername">—</div>
+          </div>
+        </div>
+        <div class="row2" style="margin-top:20px;">
+          <div>
+            <label class="no-margin">Display name</label>
+            <input type="text" id="profileDisplayName" disabled>
+          </div>
+          <div>
+            <label class="no-margin">Username</label>
+            <input type="text" id="profileUsernameField" disabled>
+          </div>
+        </div>
+        <div class="hint-box" style="margin-top:20px;">
+          <span class="icon icon-info"></span>
+          <div>
+            <b>Role</b>
+            <span id="profileRoleText">—</span>
+          </div>
+        </div>
+        <div class="hint-box" style="margin-top:10px;">
+          <span class="icon icon-info"></span>
+          <div>
+            <b>Data residency</b>
+            <span>Everything you enter is stored on the team server, not on this machine — nothing is sent to any external or public AI/cloud service.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card account-panel" id="accountPanel-security" style="display:none;">
+        <h3>Password &amp; security</h3>
+        <p class="muted-small" style="margin-bottom:4px;">Requests a new password for your own account.
+          An admin has to approve it before it takes effect — you can't change it unilaterally, by design.</p>
+        <input type="password" id="cpNewPassword" placeholder="New password (min 8 characters)" autocomplete="new-password" style="margin-top:14px;">
+        <input type="password" id="cpConfirmPassword" placeholder="Confirm new password" autocomplete="new-password" style="margin-top:8px;">
+        <div class="login-error" id="cpError" style="display:none;"></div>
+        <div class="login-error" id="cpSuccess" style="display:none;background:var(--green-bg);color:var(--green-fg);"></div>
+        <div class="actions" style="margin-top:12px;">
+          <button class="btn btn-primary" id="cpRequestBtn">Request password change</button>
+        </div>
+      </div>
+
+      <div class="card account-panel notif-prefs-card" id="accountPanel-notifications" style="display:none;">
+        <div class="notif-prefs-head">
+          <div>
+            <h3>Notification preferences</h3>
+            <p class="muted-small">Choose which notifications appear in RCK. Only notifications that apply to your role are listed.</p>
+          </div>
+          <span class="notif-saved-chip">All changes saved</span>
+        </div>
+        <div class="notif-prefs-table" id="notifPrefsTable"></div>
+        <div class="notif-prefs-foot">Preferences are stored on this device. Email notifications are not available in this deployment.</div>
+      </div>
+
+      <div class="card account-panel" id="accountPanel-preferences" style="display:none;">
+        <h3>Application preferences</h3>
+        <p class="muted-small" style="margin-bottom:18px;">Stored on this device only — not synced across machines.</p>
+        <label class="no-margin">Start page</label>
+        <select id="prefStartPage">
+          <option value="dashboard">Dashboard</option>
+          <option value="my-entries">My entries</option>
+          <option value="trusted">Trusted knowledge</option>
+          <option value="review-queue">Review queue</option>
+        </select>
+        <label>Density</label>
+        <div class="density-toggle">
+          <button type="button" class="density-btn active" id="prefDensityComfortable" data-density="comfortable">Comfortable</button>
+          <button type="button" class="density-btn" id="prefDensityCompact" data-density="compact">Compact</button>
+        </div>
+      </div>
+
+      <div class="card account-panel" id="accountPanel-activity" style="display:none;">
+        <h3>Activity</h3>
+        <p class="muted-small" style="margin-bottom:14px;">Your own recent actions in RCK.</p>
+        <div id="activityList" class="user-list"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== SETTINGS / ADMINISTRATION ============================== -->
+<section class="view" id="view-settings">
+  <div class="page-head">
+    <h1>Settings</h1>
+    <p>Manage who can do what in RCK.</p>
+  </div>
+
+  <div class="tab-strip">
+    <button class="tab-item active" data-settings-tab="users">Users &amp; roles</button>
+    <button class="tab-item" data-settings-tab="stats">Platform statistics</button>
+  </div>
+
+  <div class="settings-panel active" id="settingsPanel-users">
+    <div class="role-card-grid">
+      <div class="role-card">
+        <div class="role-card-top">
+          <span class="role-card-icon role-card-icon-contributor"><span class="icon icon-sm" data-nav-icon="user"></span></span>
+          <span class="role-card-count" id="roleCountContributor">0 users</span>
+        </div>
+        <b>Contributor</b><span class="muted-small">Default for everyone</span>
+        <ul class="role-card-list">
+          <li>Capture knowledge</li>
+          <li>Edit and delete own entries before review</li>
+          <li>Browse trusted knowledge</li>
+        </ul>
+      </div>
+      <div class="role-card">
+        <div class="role-card-top">
+          <span class="role-card-icon role-card-icon-reviewer"><span class="icon icon-sm" data-nav-icon="clipboardCheck"></span></span>
+          <span class="role-card-count" id="roleCountReviewer">0 users</span>
+        </div>
+        <b>Reviewer</b><span class="muted-small">Everything a contributor can do, plus</span>
+        <ul class="role-card-list">
+          <li>Review entries in the queue</li>
+          <li>Approve, request changes or reject</li>
+        </ul>
+      </div>
+      <div class="role-card">
+        <div class="role-card-top">
+          <span class="role-card-icon role-card-icon-admin"><span class="icon icon-sm" data-nav-icon="shieldCheck"></span></span>
+          <span class="role-card-count" id="roleCountAdmin">0 users</span>
+        </div>
+        <b>Administrator</b><span class="muted-small">Everything a reviewer can do, plus</span>
+        <ul class="role-card-list">
+          <li>Manage users and roles</li>
+          <li>View platform statistics</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:18px;">
+      <div class="sidebar-head">
+        <h3>Team accounts</h3>
+      </div>
+      <div class="user-search-row">
+        <div class="searchbar">
+          <span class="icon icon-muted" data-nav-icon="search"></span>
+          <input id="userSearchInput" type="text" placeholder="Search people…">
+        </div>
+        <select id="userRoleFilter">
+          <option value="">All roles</option>
+          <option value="technician">Contributor</option>
+          <option value="admin">Reviewer</option>
+          <option value="super_admin">Administrator</option>
+        </select>
+      </div>
+      <table class="data-table">
+        <thead><tr><th>User</th><th>Role</th><th>Status</th><th></th></tr></thead>
+        <tbody id="userListBody"></tbody>
+      </table>
+
+      <div class="sidebar-head" style="margin-top:20px;">
+        <h3>Pending password requests</h3>
+      </div>
+      <div id="pwRequestListBody" class="user-list"></div>
+    </div>
+
+    <div class="card">
+      <h3>Create account</h3>
+      <div class="row2">
+        <div>
+          <input type="text" id="nuUsername" placeholder="Username" autocomplete="off">
+        </div>
+        <div>
+          <input type="text" id="nuDisplayName" placeholder="Display name" autocomplete="off">
+        </div>
+      </div>
+      <div class="row2">
+        <div>
+          <input type="password" id="nuPassword" placeholder="Password (min 8 characters)" autocomplete="new-password">
+        </div>
+        <div>
+          <select id="nuRole"></select>
+        </div>
+      </div>
+      <div class="login-error" id="nuError" style="display:none;"></div>
+      <div class="actions" style="margin-top:16px;">
+        <button class="btn btn-primary" id="nuCreateBtn">Create account</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="settings-panel" id="settingsPanel-stats" style="display:none;">
+    <div class="stat-grid">
+      <div class="stat-card">
+        <span class="stat-icon stat-icon-green" data-nav-icon="shieldCheck"></span>
+        <div class="stat-num" id="statsTrusted">—</div>
+        <div class="stat-label">Trusted knowledge</div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon stat-icon-amber" data-nav-icon="clock"></span>
+        <div class="stat-num" id="statsPending">—</div>
+        <div class="stat-label">Pending review</div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon stat-icon-blue" data-nav-icon="check"></span>
+        <div class="stat-num" id="statsRejected">—</div>
+        <div class="stat-label">Rejected</div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon stat-icon-indigo" data-nav-icon="user"></span>
+        <div class="stat-num" id="statsUsers">—</div>
+        <div class="stat-label">Team accounts</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /.shell-body -->
+</div><!-- /.app-shell -->
+
+<footer style="display:none;">Release Knowledge Capture — team desktop client. Data lives on the team server, not on this machine. No external AI or public cloud service is used.</footer>
+
+<!-- Issue detail / edit dialog -->
+<div class="modal-overlay" id="detailOverlay">
+  <div class="modal modal-lg">
+    <div class="modal-head">
+      <div class="modal-head-left">
+        <span class="issue-id" id="dId"></span>
+        <span class="type-badge" id="dTypeBadge"><span class="icon icon-sm" id="dTypeIcon"></span> <span id="dTypeLabel"></span></span>
+        <span class="status" id="dStatus"></span>
+        <span class="muted-small" id="dLockedNote" style="display:none;">Solved — only an admin can change this</span>
+      </div>
+      <div class="modal-head-actions">
+        <button class="btn btn-outline btn-sm" id="dEditBtn">
+          <span class="icon icon-primary icon-sm" id="editIcon"></span> Edit
+        </button>
+        <button class="btn btn-primary btn-sm" id="dSaveBtn" style="display:none;">
+          <span class="icon icon-white icon-sm" id="saveIcon"></span> Save Changes
+        </button>
+        <button class="btn btn-outline btn-sm" id="dCancelBtn" style="display:none;">Cancel</button>
+        <button class="modal-close" id="dCloseBtn">&times;</button>
+      </div>
+    </div>
+
+    <div class="modal-body" id="detailView">
+      <div class="review-panel" id="reviewBar" style="display:none;">
+        <div class="review-panel-head">
+          <b>Your decision</b>
+          <span class="muted-small">The author is notified as soon as you submit.</span>
+        </div>
+
+        <label class="decision-option" data-decision="approve">
+          <input type="radio" name="reviewDecision" value="approve">
+          <span class="decision-icon decision-icon-approve"><span class="icon icon-sm" data-nav-icon="check"></span></span>
+          <span class="decision-text"><b>Approve</b><span>Publish to trusted knowledge</span></span>
+        </label>
+        <label class="decision-option" data-decision="request_changes">
+          <input type="radio" name="reviewDecision" value="request_changes" checked>
+          <span class="decision-icon decision-icon-request"><span class="icon icon-sm" data-nav-icon="edit"></span></span>
+          <span class="decision-text"><b>Request changes</b><span>Send back to the author with comments</span></span>
+        </label>
+        <label class="decision-option" data-decision="reject">
+          <input type="radio" name="reviewDecision" value="reject">
+          <span class="decision-icon decision-icon-reject"><span class="icon icon-sm" data-nav-icon="xMark"></span></span>
+          <span class="decision-text"><b>Reject</b><span>Close without publishing</span></span>
+        </label>
+
+        <div class="validation-checklist">
+          <div class="vc-label">Validation checklist</div>
+          <label class="vc-item"><input type="checkbox" data-vc="accurate"> Technically accurate</label>
+          <label class="vc-item"><input type="checkbox" data-vc="complete"> Complete and reproducible</label>
+          <label class="vc-item"><input type="checkbox" data-vc="sensitive"> No sensitive data</label>
+          <label class="vc-item"><input type="checkbox" data-vc="duplicate"> Not a duplicate of existing knowledge</label>
+        </div>
+
+        <label class="no-margin" style="margin-top:16px;display:block;">Comment to the author</label>
+        <textarea id="reviewCommentInput" placeholder="What should the author know?" maxlength="1000"></textarea>
+        <div class="login-error" id="reviewCommentError" style="display:none;"></div>
+
+        <button type="button" class="btn btn-block review-submit-btn" id="reviewSubmitBtn">Send back to author</button>
+        <button type="button" class="btn-link btn-link-muted review-save-later" id="reviewSaveLaterBtn">Save review for later</button>
+      </div>
+      <h2 id="dTitle"></h2>
+      <div class="detail-meta">
+        <span>System: <b id="dSystem"></b></span>
+        <span id="dErrorWrap">Error code: <b id="dError"></b></span>
+        <span>Recorded: <b id="dCreated"></b></span>
+      </div>
+      <div class="chips" id="dApps"></div>
+
+      <div id="dPSBlock">
+        <label>Problem</label>
+        <p class="detail-text" id="dProblem"></p>
+        <label>Root Cause</label>
+        <p class="detail-text" id="dRoot"></p>
+        <label>Resolution / Solution</label>
+        <p class="detail-text" id="dSolution"></p>
+      </div>
+
+      <div id="dInfoBlock" style="display:none;">
+        <label>Topic / Subject</label>
+        <p class="detail-text" id="dTopic"></p>
+        <label>Description / Explanation</label>
+        <p class="detail-text" id="dDescription"></p>
+        <div id="dContextWrap"><label>Additional Context</label><p class="detail-text" id="dContext"></p></div>
+      </div>
+
+      <div id="dProcBlock" style="display:none;">
+        <label>Purpose</label>
+        <p class="detail-text" id="dPurpose"></p>
+        <div id="dPrereqsWrap"><label>Prerequisites</label><p class="detail-text" id="dPrereqs"></p></div>
+      </div>
+
+      <div id="dStepsWrap">
+        <label>Step-by-Step Procedure</label>
+        <ol class="detail-steps" id="dSteps"></ol>
+      </div>
+
+      <div id="dProcBlock2" style="display:none;">
+        <div id="dWarningsWrap"><label>Important Notes / Warnings</label><p class="detail-text" id="dWarnings"></p></div>
+        <div id="dAdditionalInfoWrap"><label>Additional Information</label><p class="detail-text" id="dAdditionalInfo"></p></div>
+      </div>
+
+      <div id="dAttachmentsBlock" style="display:none;">
+        <label>Attachments</label>
+        <div id="dAttachments" class="attachment-list"></div>
+      </div>
+
+      <div class="detail-details-grid">
+        <div><label class="no-margin">Author</label><p class="detail-text" id="dAuthor"></p></div>
+        <div id="dValidatedByWrap" style="display:none;"><label class="no-margin">Validated by</label><p class="detail-text" id="dValidatedBy"></p></div>
+        <div><label class="no-margin">Entry ID</label><p class="detail-text mono" id="dEntryId"></p></div>
+      </div>
+
+      <div id="dRelatedBlock" style="display:none;">
+        <label>Related knowledge</label>
+        <div id="dRelated" class="user-list"></div>
+      </div>
+
+      <label>History</label>
+      <div id="dHistory" class="user-list"></div>
+    </div>
+
+    <div class="modal-body" id="detailEditInfo" style="display:none;">
+      <div class="row2">
+        <div>
+          <label>Title <span class="req">*</span></label>
+          <input type="text" id="eiTitle">
+        </div>
+        <div>
+          <label>Status</label>
+          <select id="eiStatus">
+            <option value="review">Review</option>
+            <option value="in_progress">In Progress</option>
+            <option value="critical">Critical</option>
+            <option value="cancelled">Cancelled</option>
+            <option value="solved">Solved</option>
+          </select>
+        </div>
+      </div>
+      <label>Topic <span class="req">*</span></label>
+      <input type="text" id="eiTopic">
+      <label>Description <span class="req">*</span></label>
+      <textarea id="eiDescription" maxlength="5000"></textarea>
+      <label>Context <span class="optional">(Optional)</span></label>
+      <textarea id="eiContext" maxlength="3000"></textarea>
+    </div>
+
+    <div class="modal-body" id="detailEditProc" style="display:none;">
+      <div class="row2">
+        <div>
+          <label>Title <span class="req">*</span></label>
+          <input type="text" id="epTitle">
+        </div>
+        <div>
+          <label>Status</label>
+          <select id="epStatus">
+            <option value="review">Review</option>
+            <option value="in_progress">In Progress</option>
+            <option value="critical">Critical</option>
+            <option value="cancelled">Cancelled</option>
+            <option value="solved">Solved</option>
+          </select>
+        </div>
+      </div>
+      <label>Purpose <span class="req">*</span></label>
+      <textarea id="epPurpose" maxlength="2000"></textarea>
+      <label>Prerequisites <span class="optional">(Optional)</span></label>
+      <textarea id="epPrereqs" maxlength="2000"></textarea>
+      <div class="steps-head-row">
+        <label class="no-margin">Steps <span class="req">*</span></label>
+        <button type="button" class="btn btn-outline btn-sm" id="epAddStepBtn">+ Add Step</button>
+      </div>
+      <div class="steps">
+        <div class="steps-head"><div>Step</div><div>Action</div><div>Application</div><div></div></div>
+        <div id="epStepsBody"></div>
+      </div>
+      <label>Important notes / warnings <span class="optional">(Optional)</span></label>
+      <textarea id="epWarnings" maxlength="2000"></textarea>
+      <label>Additional information <span class="optional">(Optional)</span></label>
+      <textarea id="epAdditional" maxlength="3000"></textarea>
+    </div>
+
+    <div class="modal-body" id="detailEdit" style="display:none;">
+      <div class="row2">
+        <div>
+          <label>Issue Title <span class="req">*</span></label>
+          <input type="text" id="eTitle">
+        </div>
+        <div>
+          <label>Status</label>
+          <select id="eStatus">
+            <option value="review">Review</option>
+            <option value="in_progress">In Progress</option>
+            <option value="critical">Critical</option>
+            <option value="cancelled">Cancelled</option>
+            <option value="solved">Solved</option>
+          </select>
+        </div>
+      </div>
+      <label>Error Code</label>
+      <input type="text" id="eError">
+
+      <label>Applications Involved <span class="req">*</span></label>
+      <div class="apps-picker" id="eAppsPicker">
+        <div class="chips" id="eAppChips"></div>
+        <button type="button" class="apps-picker-toggle" id="eAppsPickerToggle">
+          <span class="icon icon-muted icon-sm chevron"></span>
+        </button>
+        <div class="apps-dropdown" id="eAppsDropdown"></div>
+      </div>
+
+      <label>Problem Description <span class="req">*</span></label>
+      <textarea id="eProblem" maxlength="3000"></textarea>
+
+      <div class="row2">
+        <div>
+          <label>Root Cause <span class="req">*</span></label>
+          <textarea id="eRoot" maxlength="2000"></textarea>
+        </div>
+        <div>
+          <label>Resolution / Solution <span class="req">*</span></label>
+          <textarea id="eSolution" maxlength="2000"></textarea>
+        </div>
+      </div>
+
+      <div class="steps-head-row">
+        <label class="no-margin">Step-by-Step Procedure <span class="req">*</span></label>
+        <button type="button" class="btn btn-outline btn-sm" id="eAddStepBtn">+ Add Step</button>
+      </div>
+      <div class="steps">
+        <div class="steps-head"><div>Step</div><div>Action</div><div>Application</div><div></div></div>
+        <div id="eStepsBody"></div>
+      </div>
+
+      <label>Attachments</label>
+      <div id="eAttachments" class="attachment-list"></div>
+      <div class="attach-row">
+        <button type="button" class="attach-box attach-box-sm" data-kind="screenshot">
+          <span class="icon icon-primary icon-sm"></span> Screenshot
+        </button>
+        <button type="button" class="attach-box attach-box-sm" data-kind="log">
+          <span class="icon icon-primary icon-sm"></span> Log File
+        </button>
+        <button type="button" class="attach-box attach-box-sm" data-kind="error">
+          <span class="icon icon-primary icon-sm"></span> Error Report
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add application dialog -->
+<div class="modal-overlay" id="addAppOverlay">
+  <div class="modal modal-sm">
+    <div class="modal-head">
+      <h2 class="modal-title-sm">Add Application</h2>
+      <button class="modal-close" id="addAppCloseBtn">&times;</button>
+    </div>
+    <div class="modal-body">
+      <label>Application Name</label>
+      <input type="text" id="newAppInput" placeholder="e.g., Change Management System">
+      <div class="actions" style="margin-top:16px;">
+        <button class="btn btn-primary" id="addAppConfirmBtn">Add</button>
+        <button class="btn btn-secondary" id="addAppCancelBtn">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- View-all issues dialog -->
+<div class="modal-overlay" id="viewAllOverlay">
+  <div class="modal modal-lg">
+    <div class="modal-head">
+      <h2 class="modal-title-sm">All Issues</h2>
+      <button class="modal-close" id="viewAllCloseBtn">&times;</button>
+    </div>
+    <div class="modal-body" id="viewAllBody"></div>
+  </div>
+</div>
+
+<!-- Generic confirmation dialog (delete / approve / reject / sign out) -->
+<div class="modal-overlay" id="confirmOverlay">
+  <div class="modal modal-sm">
+    <div class="modal-body">
+      <span class="confirm-icon" id="confirmIcon"></span>
+      <h2 class="modal-title-sm" id="confirmTitle"></h2>
+      <p class="detail-text muted-small" id="confirmText"></p>
+      <div class="actions actions-end" style="margin-top:20px;">
+        <button class="btn btn-secondary" id="confirmCancelBtn">Cancel</button>
+        <button class="btn" id="confirmActionBtn"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast-container" id="toastContainer"></div>
+<div class="ntoasts" id="notifToasts" role="region" aria-label="New notifications" aria-live="polite"></div>
+
+<script src="renderer.js"></script>
+</body>
+</html>
